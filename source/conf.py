@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '云译通接口文档'
-copyright = '2020, 译讯科技'
-author = '译讯科技'
+# project = '云译通接口文档'
+# copyright = '2020, 译讯科技'
+# author = '译讯科技'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
