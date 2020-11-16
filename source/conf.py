@@ -21,6 +21,10 @@
 # copyright = '2020, 译讯科技'
 # author = '译讯科技'
 
+project = ''
+copyright = ''
+author = ''
+
 # The full version, including alpha/beta/rc tags
 release = '1.0'
 
@@ -61,3 +65,10 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # html_logo = './_static/favicon.ico'
+
+
+html_context = {
+"display_github": False, # Add 'Edit on Github' link instead of 'View page source'
+"last_updated": True,
+"commit": False,
+}
