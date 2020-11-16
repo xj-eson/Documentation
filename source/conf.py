@@ -21,7 +21,7 @@
 # copyright = '2020, 译讯科技'
 # author = '译讯科技'
 
-project = ''
+project = 'translatedoc'
 copyright = ''
 author = ''
 
@@ -87,10 +87,4 @@ html_theme_options = {
     # 'navigation_depth': 4,
     # 'includehidden': True,
     # 'titles_only': True
-}
-
-html_context = {
-"display_github": False, # Add 'Edit on Github' link instead of 'View page source'
-"last_updated": True,
-"commit": False
 }
