@@ -32,9 +32,8 @@
    :maxdepth: 1
    :caption: 4.文档转换
 
-   convert/PdfConvertUseOcr
    convert/PdfConvertToType
-   convert/ToPdf
+   convert/ConvertToPdf
 
 .. toctree::
    :maxdepth: 1

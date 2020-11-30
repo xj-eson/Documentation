@@ -37,6 +37,7 @@ data object        是   翻译参数
 fileName        string        是   文件名
 srcLanguageType string        是   源语言语种(请查看 :doc:`../overview/LanguageType`)
 tgtLanguageType string        是   目标语言语种( :doc:`../overview/LanguageType`)
+editable        bool          是   文档是否可编辑 null:自动识别 true:可编辑 false:不可编辑
 =============== ====== ====== ==== ==========================
 
 **返回值**
