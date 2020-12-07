@@ -9,7 +9,7 @@ access_token，开发者需要进行妥善保存。
 
 ::
 
-   GET https://coresite.ctcfile.com/OAuth/AccessToken?clientId=CLIENTID&clientSecret=CLIENTSECRET
+   GET https://coresite.ctcfile.com/oAuth/accessToken?clientId=CLIENTID&clientSecret=CLIENTSECRET
 
 **请求参数**
 
@@ -79,4 +79,4 @@ errmsg        string 错误信息
 
 .. |网页调试工具| raw:: html
 
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8%E5%87%AD%E8%AF%81/get_OAuth_AccessToken" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8%E5%87%AD%E8%AF%81/get_oAuth_accessToken" target="_blank">网页调试工具</a>

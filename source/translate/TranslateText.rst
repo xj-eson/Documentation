@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://coresite.ctcfile.com/Translate/TranslateTexts
+   POST https://coresite.ctcfile.com/translation/texts
 
 **请求参数**
 
@@ -55,4 +55,4 @@ other string 其它信息.传递什么信息,返回同样的信息
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_Translate_TranslateTexts" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translation_texts" target="_blank">网页调试工具</a>

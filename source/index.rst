@@ -14,23 +14,36 @@ TranslateDoc
 
 .. toctree::
    :maxdepth: 1
-   :caption: 2.翻译
+   :caption: 2.用户信息
 
-   translate/TranslateText
-   translate/TranslateFile
-   translate/OpenLink
-   translate/TgtDownUrls
+   user/userinfo
+   user/domainTypes
+   user/languages
 
 .. toctree::
    :maxdepth: 1
-   :caption: 3.智能校对
+   :caption: 3.翻译
+
+   translate/TranslateText
+   translate/TranslateFile
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 4.翻译历史
+
+   file/history
+   file/tgtDownUrls
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 5.智能校对
 
    proofreading/TranslatedEditUrl
    proofreading/CheckProgress
 
 .. toctree::
    :maxdepth: 1
-   :caption: 4.文档转换
+   :caption: 6.文档转换
 
    convert/PdfConvertToType
    convert/ConvertToPdf
