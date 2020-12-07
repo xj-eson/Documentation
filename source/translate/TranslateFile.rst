@@ -119,7 +119,7 @@ taskId         string   任务ID
 taskStatusType int      状态，包括0:进行中，1:完成，2:取消，3:错误
 fileLibIds     array    文件id数组，需要根据此id获取翻译后的文件信息
 percent        double   进度值
-errMsg         string   错误信息
+errorCode      int      :doc:`错误码 </../overview/StatusCode>`
 createTime     datetime 开始时间
 finishTime     datetime 完成时间
 ============== ======== ============================================
@@ -147,7 +147,7 @@ finishTime     datetime 完成时间
          "fileLibIds": [
             0
          ],
-         "errMsg": "string",
+         "errorCode": -1,
          "createTime": "2020-12-07T02:11:18.512Z",
          "finishTime": "2020-12-07T02:11:18.512Z"
       }
@@ -204,7 +204,7 @@ finishTime     datetime 完成时间
             "fileLibIds": [
             0
             ],
-            "errMsg": "string",
+            "errorCode": -1,
             "createTime": "2020-12-07T02:11:18.501Z",
             "finishTime": "2020-12-07T02:11:18.501Z"
          }
