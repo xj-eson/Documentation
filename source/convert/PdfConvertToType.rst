@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://coresite.ctcfile.com/conversion/pdfToFile
+   POST https://coresite.ctcfile.com/conversions/pdf-to-file
 
 **请求参数**
 
@@ -18,13 +18,13 @@ data object        是   参数
 
 *data的结构*
 
-=========== ====== ====== ==== ============================================================
-属性        类型   默认值 必填 说明
-=========== ====== ====== ==== ============================================================
-outFileType string        是   输出文件类型，包括Docx，Xlsx，Pptx，Jpeg，Png，Bmp
-lang        string        是   PDF文件语言( :doc:`../overview/LanguageType`)
-editable    bool          是   文档是否可编辑 null:自动识别 true:可编辑 false:不可编辑
-=========== ====== ====== ==== ============================================================
+============= ====== ====== ==== ============================================================
+属性          类型   默认值 必填 说明
+============= ====== ====== ==== ============================================================
+out_file_type string        是   输出文件类型，包括Docx，Xlsx，Pptx，Jpeg，Png，Bmp
+lang          string        是   PDF文件语言( :doc:`../overview/LanguageType`)
+editable      bool          是   文档是否可编辑 null:自动识别 true:可编辑 false:不可编辑
+============= ====== ====== ==== ============================================================
 
 **返回值**
 
@@ -54,4 +54,4 @@ X-User-Pages      int    当前使用的页数
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3/post_conversion_pdfToFile" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3/post_conversions_pdf_to_file" target="_blank">网页调试工具</a>

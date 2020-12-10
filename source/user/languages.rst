@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://coresite.ctcfile.com/user/languages
+   GET https://coresite.ctcfile.com/users/languages
 
 **返回值**
 
@@ -66,4 +66,4 @@ value                       string 语言标识值
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_user_languages" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users_languages" target="_blank">网页调试工具</a>

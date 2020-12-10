@@ -49,7 +49,7 @@ TranslateDoc
    convert/ConvertToPdf
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :caption: 附录
 
    overview/LanguageType

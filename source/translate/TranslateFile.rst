@@ -18,7 +18,7 @@
 
 ::
 
-   POST https://coresite.ctcfile.com/translation/file
+   POST https://coresite.ctcfile.com/translationss/file
 
 **请求参数**
 
@@ -31,22 +31,21 @@ data object        是   翻译参数
 
 *data的结构*
 
-=============== ====== ====== ==== ==========================
-属性            类型   默认值 必填 说明
-=============== ====== ====== ==== ==========================
-fileName        string        是   文件名
-srcLanguageType string        是   源语言语种(请查看 :doc:`../overview/LanguageType`)
-tgtLanguageType string        是   目标语言语种( :doc:`../overview/LanguageType`)
-editable        bool          是   文档是否可编辑 null:自动识别 true:可编辑 false:不可编辑
-=============== ====== ====== ==== ==========================
+================= ====== ====== ==== ==========================
+属性              类型   默认值 必填 说明
+================= ====== ====== ==== ==========================
+src_language_type string        是   源语言语种(请查看 :doc:`../overview/LanguageType`)
+tgt_language_type string        是   目标语言语种( :doc:`../overview/LanguageType`)
+editable          bool          是   文档是否可编辑 null:自动识别 true:可编辑 false:不可编辑
+================= ====== ====== ==== ==========================
 
 **返回值**
 
-====== ====== ======================
-属性   类型   说明
-====== ====== ======================
-taskId string 任务ID（具体请看示例）
-====== ====== ======================
+====== ======================
+类型   说明
+====== ======================
+string 任务ID（具体请看示例）
+====== ======================
 
 **返回数据示例**
 
@@ -67,7 +66,7 @@ taskId string 任务ID（具体请看示例）
 
 .. |网页调试工具1| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translation_file" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translations_file" target="_blank">网页调试工具</a>
 
 -----------------------------------------------------------
 
@@ -79,50 +78,50 @@ taskId string 任务ID（具体请看示例）
 
 ::
 
-   GET https://coresite.ctcfile.com/translation/tasks/[taskId]
+   GET https://coresite.ctcfile.com/translations/tasks/{task_id}
 
 **请求参数**
 
-====== ====== ====== ==== ======
-属性   类型   默认值 必填 说明
-====== ====== ====== ==== ======
-taskId string        是   任务ID
-====== ====== ====== ==== ======
+======= ====== ====== ==== ======
+属性    类型   默认值 必填 说明
+======= ====== ====== ==== ======
+task_id string        是   任务ID
+======= ====== ====== ==== ======
 
 **返回值**
 
-============== ======== ==================
-属性           类型     说明
-============== ======== ==================
-taskId         string   任务ID
-translateInfo  object   基本信息
-progress       object   翻译进度信息
-============== ======== ==================
+=============== ======== ==================
+属性            类型     说明
+=============== ======== ==================
+task_id         string   任务ID
+translate_info  object   基本信息
+progress        object   翻译进度信息
+=============== ======== ==================
 
-*translateInfo的结构*
+*translate_info的结构*
 
-=============== ====== ========================
-属性            类型   说明
-=============== ====== ========================
-fileName        string 文件名称
-secretLevel     int    机密级别，包括 0:未设置密级,10:非密,20:内部,30:秘密,40:机密
-srcLanguageType string 源文本语种( :doc:`../overview/LanguageType`)
-tgtLanguageType string 目标语种( :doc:`../overview/LanguageType`)
-=============== ====== ========================
+================= ====== ========================
+属性              类型   说明
+================= ====== ========================
+file_name         string 文件名称
+secret_level      int    机密级别，包括 0:未设置密级,10:非密,20:内部,30:秘密,40:机密
+src_language_type string 源文本语种( :doc:`../overview/LanguageType`)
+tgt_language_type string 目标语种( :doc:`../overview/LanguageType`)
+================= ====== ========================
 
 *progress的结构*
 
-============== ======== ============================================
-属性           类型     说明
-============== ======== ============================================
-taskId         string   任务ID
-taskStatusType int      状态，包括0:进行中，1:完成，2:取消，3:错误
-fileLibIds     array    文件id数组，需要根据此id获取翻译后的文件信息
-percent        double   进度值
-errorCode      int      :doc:`错误码 </../overview/StatusCode>`
-createTime     datetime 开始时间
-finishTime     datetime 完成时间
-============== ======== ============================================
+================ ======== ============================================
+属性             类型     说明
+================ ======== ============================================
+task_id          string   任务ID
+task_status_type int      状态，包括0:进行中，1:完成，2:取消，3:错误
+file_lib_ids     array    文件id数组，需要根据此id获取翻译后的文件信息
+percent          double   进度值
+error_code       int      :doc:`错误码 </../overview/StatusCode>`
+create_time      datetime 开始时间
+finish_time      datetime 完成时间
+================ ======== ============================================
 
 **返回数据示例**
 
@@ -132,24 +131,25 @@ finishTime     datetime 完成时间
 
 
    {
-      "isCancelled": false,
-      "taskId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "translateInfo": {
-         "fileName": "string",
-         "srcLanguageType": "zs",
-         "tgtLanguageType": "zs",
+      "is_cancelled": false,
+      "task_id": "66aa7ab0-b9ba-46fd-9a6e-e07dc14a6a11",
+      "translate_info": {
+         "file_name": "file.pdf",
+         "src_language_type": "en",
+         "type_language_type": "zs",
          "editable": true
       },
       "progress": {
-         "taskId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-         "taskStatusType": "Progressing",
-         "percent": 0,
-         "fileLibIds": [
-            0
+         "task_id": "66aa7ab0-b9ba-46fd-9a6e-e07dc14a6a11",
+         "task_status_type": 1,
+         "percent": 100,
+         "file_lib_ids": [
+            1
          ],
-         "errorCode": -1,
-         "createTime": "2020-12-07T02:11:18.512Z",
-         "finishTime": "2020-12-07T02:11:18.512Z"
+         "error_code": -1,
+         "err_msg": null,
+         "create_time": "2020-12-10T14:36:24.2084142+08:00",
+         "finish_time": "2020-12-10T14:36:35.6994498+08:00"
       }
    }
 
@@ -163,7 +163,7 @@ finishTime     datetime 完成时间
 
 .. |网页调试工具2.1| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translation_tasks__taskId_" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tasks__taskId_" target="_blank">网页调试工具</a>
 
 ------------------------------------------------------
 
@@ -174,7 +174,7 @@ finishTime     datetime 完成时间
 
 ::
 
-   GET https://coresite.ctcfile.com/translation/tasks
+   GET https://coresite.ctcfile.com/translations/tasks
 
 **返回值**
 
@@ -189,24 +189,25 @@ finishTime     datetime 完成时间
 
    [
       {
-         "isCancelled": false,
-         "taskId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-         "translateInfo": {
-            "fileName": "string",
-            "srcLanguageType": "zs",
-            "tgtLanguageType": "zs",
+         "is_cancelled": false,
+         "task_id": "66aa7ab0-b9ba-46fd-9a6e-e07dc14a6a11",
+         "translate_info": {
+            "file_name": "file.pdf",
+            "src_language_type": "en",
+            "type_language_type": "zs",
             "editable": true
          },
          "progress": {
-            "taskId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "taskStatusType": "Progressing",
-            "percent": 0,
-            "fileLibIds": [
-            0
+            "task_id": "66aa7ab0-b9ba-46fd-9a6e-e07dc14a6a11",
+            "task_status_type": 1,
+            "percent": 100,
+            "file_lib_ids": [
+               1
             ],
-            "errorCode": -1,
-            "createTime": "2020-12-07T02:11:18.501Z",
-            "finishTime": "2020-12-07T02:11:18.501Z"
+            "error_code": -1,
+            "err_msg": null,
+            "create_time": "2020-12-10T14:36:24.2084142+08:00",
+            "finish_time": "2020-12-10T14:36:35.6994498+08:00"
          }
       }
    ]
@@ -221,7 +222,7 @@ finishTime     datetime 完成时间
 
 .. |网页调试工具2.2| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translation_tasks" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tasks" target="_blank">网页调试工具</a>
 
 -------------------------------------------------------
 
@@ -232,23 +233,23 @@ finishTime     datetime 完成时间
 
 ::
 
-   GET https://coresite.ctcfile.com/translation/tgtFile/[fileLibId]
+   GET https://coresite.ctcfile.com/translations/tgt/{file_lib_id}
 
 **请求参数**
 
-========= ==== ====== ==== ===========================
-属性      类型 默认值 必填 说明
-========= ==== ====== ==== ===========================
-fileLibId int         是   接口2返回的fileLibIds字段值
-========= ==== ====== ==== ===========================
+=========== ==== ====== ==== ===========================
+属性        类型 默认值 必填 说明
+=========== ==== ====== ==== ===========================
+file_lib_id int         是   接口2返回的fileLibIds字段值
+=========== ==== ====== ==== ===========================
 
 **返回值**
 
-====== ====== ======
-属性   类型   说明
-====== ====== ======
-stream stream 文件流
-====== ====== ======
+====== ======
+类型   说明
+====== ======
+stream 文件流
+====== ======
 
 错误时返回
 
@@ -260,7 +261,7 @@ stream stream 文件流
 
 .. |网页调试工具3| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translation_tgtFile__fileLibId_" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tgt__fileLibId_" target="_blank">网页调试工具</a>
 
 -----------------------------------------------------------
 
@@ -271,23 +272,17 @@ stream stream 文件流
 
 ::
 
-   DELETE https://coresite.ctcfile.com/translation/cancel/[taskId]
+   PATCH https://coresite.ctcfile.com/translations/tasks/{task_id}/cancel
 
 **请求参数**
 
-====== ====== ====== ==== ======
-属性   类型   默认值 必填 说明
-====== ====== ====== ==== ======
-taskId string        是   任务ID
-====== ====== ====== ==== ======
+======= ====== ====== ==== ======
+属性    类型   默认值 必填 说明
+======= ====== ====== ==== ======
+task_id string        是   任务ID
+======= ====== ====== ==== ======
 
 **返回数据示例**
-
-正常返回
-
-.. code:: json
-
-   true
 
 错误时返回
 
@@ -299,4 +294,4 @@ taskId string        是   任务ID
 
 .. |网页调试工具5| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/put_translation_cancel__taskId_" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/patch_translations_tasks__taskId__cancel" target="_blank">网页调试工具</a>

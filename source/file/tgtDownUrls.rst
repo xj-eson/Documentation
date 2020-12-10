@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://coresite.ctcfile.com/file/tgtDownUrls
+   GET https://coresite.ctcfile.com/files/tgt-downurls
 
 **请求参数**
 
@@ -37,4 +37,4 @@ id        string        是   文件ID
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_file_tgtDownUrls" target="_blank">网页调试工具</a>
+   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_files_tgt_downurls" target="_blank">网页调试工具</a>
