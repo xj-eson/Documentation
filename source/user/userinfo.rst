@@ -5,22 +5,22 @@
 
 ::
 
-   GET https://coresite.ctcfile.com/users
+   GET https://open.api.ctcfile.com/users
 
 **返回值**
 
-============================= ====== ====================================
-属性                          类型   说明
-============================= ====== ====================================
-id                            int    用户ID
-user_name                     string 用户显示名称
-normalized_user_name          string 登录用户名
-email                         string 用户邮箱
-phone                         string 用户电话
-organization_name             string 组织机构名称
-organization_remain_words     string 组织机构剩余字数
-organization_date_due         string 组织机构到期日期
-============================= ====== ====================================
+============================= ======== ====================================
+属性                          类型     说明
+============================= ======== ====================================
+id                            int      用户ID
+username                      string   用户显示名称
+normalized_username           string   登录用户名
+email                         string   用户邮箱
+phone                         string   用户电话
+organization_name             string   组织机构名称
+organization_remain_words     int      组织机构剩余字数
+organization_date_due         datetime 组织机构到期日期
+============================= ======== ====================================
 
 **返回数据示例**
 
@@ -30,8 +30,8 @@ organization_date_due         string 组织机构到期日期
 
    {
       "id": 1,
-      "user_name": "yx",
-      "normalized_user_name": "yx",
+      "username": "yx",
+      "normalized_username": "yx",
       "email": "",
       "phone": "",
       "organization_name": "yx",
@@ -49,4 +49,4 @@ organization_date_due         string 组织机构到期日期
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://coresite.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users" target="_blank">网页调试工具</a>
+   <a href="https://open.api.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users" target="_blank">网页调试工具</a>

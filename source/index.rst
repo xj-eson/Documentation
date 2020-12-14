@@ -38,8 +38,8 @@ TranslateDoc
    :maxdepth: 1
    :caption: 5.智能校对
 
-   proofreading/TranslatedEditUrl
    proofreading/CheckProgress
+   proofreading/TranslatedEditUrl
 
 .. toctree::
    :maxdepth: 1

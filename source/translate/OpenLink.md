@@ -5,14 +5,14 @@
 
 ::
 
-   GET https://coresite.ctcfile.com/File/GetOpenLink
+   GET https://open.api.ctcfile.com/File/GetOpenLink
 
 **请求参数**
 
 ==== ==== ====== ==== ======================================
 属性 类型 默认值 必填 说明
 ==== ==== ====== ==== ======================================
-Id   int         是   文件ID，翻译接口返回的fileLibIds字段值
+Id   int         是   文件ID
 ==== ==== ====== ==== ======================================
 
 **返回值**
@@ -82,4 +82,4 @@ canDownload  bool   是否可下载
 
 .. |网页调试工具| raw:: html
 
-  <a href="https://coresite.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_File_GetOpenLink" target="_blank">网页调试工具</a>
+  <a href="https://open.api.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_File_GetOpenLink" target="_blank">网页调试工具</a>
