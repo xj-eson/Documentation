@@ -119,7 +119,7 @@ task_status_type int      状态，包括0:进行中，1:完成，2:取消，3:�
 percent          double   进度值
 file_lib_ids     array    文件id数组，需要根据此id获取翻译后的文件信息
 error_code       int      :doc:`错误码 </../overview/StatusCode>`
-err_msg          string   错误信息
+error_msg        string   错误信息
 create_time      datetime 开始时间
 finish_time      datetime 完成时间
 ================ ======== ============================================
@@ -148,7 +148,7 @@ finish_time      datetime 完成时间
             1
          ],
          "error_code": -1,
-         "err_msg": null,
+         "error_msg": null,
          "create_time": "2020-12-10T14:36:24.2084142+08:00",
          "finish_time": "2020-12-10T14:36:35.6994498+08:00"
       }
@@ -206,7 +206,7 @@ finish_time      datetime 完成时间
                1
             ],
             "error_code": -1,
-            "err_msg": null,
+            "error_msg": null,
             "create_time": "2020-12-10T14:36:24.2084142+08:00",
             "finish_time": "2020-12-10T14:36:35.6994498+08:00"
          }
