@@ -20,7 +20,7 @@
 
     {
         "err_code": "40016",
-        "err_msg": "invalid args"
+        "message": "invalid args"
     }
 
 
