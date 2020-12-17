@@ -49,6 +49,13 @@ TranslateDoc
    convert/ConvertToPdf
 
 .. toctree::
+   :maxdepth: 1
+   :caption: 7.统计
+
+   statistics/recharges
+   statistics/translate_trends
+
+.. toctree::
    :maxdepth: 0
    :caption: 附录
 

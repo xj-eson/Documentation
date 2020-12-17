@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://open.api.ctcfile.com/conversions/pdf-to-file
+   POST https://open-api.ctcfile.com/conversions/pdf-to-file
 
 **请求参数**
 
@@ -54,4 +54,4 @@ X-User-Pages      int    当前使用的页数
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://open.api.ctcfile.com/swagger/index.html#/%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3/post_conversions_pdf_to_file" target="_blank">网页调试工具</a>
+   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3/post_conversions_pdf_to_file" target="_blank">网页调试工具</a>
