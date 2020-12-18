@@ -18,7 +18,7 @@
 
 ::
 
-   POST https://open-api.ctcfile.com/translationss/file
+   POST https://api2.ctcfile.com/translationss/file
 
 **请求参数**
 
@@ -66,7 +66,7 @@ string 任务ID
 
 .. |网页调试工具1| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translations_file" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translations_file" target="_blank">网页调试工具</a>
 
 -----------------------------------------------------------
 
@@ -78,7 +78,7 @@ string 任务ID
 
 ::
 
-   GET https://open-api.ctcfile.com/translations/tasks/{task_id}
+   GET https://api2.ctcfile.com/translations/tasks/{task_id}
 
 **请求参数**
 
@@ -164,7 +164,7 @@ finish_time      datetime 完成时间
 
 .. |网页调试工具2.1| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tasks__task_id_" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tasks__task_id_" target="_blank">网页调试工具</a>
 
 ------------------------------------------------------
 
@@ -175,7 +175,7 @@ finish_time      datetime 完成时间
 
 ::
 
-   GET https://open-api.ctcfile.com/translations/tasks
+   GET https://api2.ctcfile.com/translations/tasks
 
 **返回值**
 
@@ -223,7 +223,7 @@ finish_time      datetime 完成时间
 
 .. |网页调试工具2.2| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tasks" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tasks" target="_blank">网页调试工具</a>
 
 -------------------------------------------------------
 
@@ -234,7 +234,7 @@ finish_time      datetime 完成时间
 
 ::
 
-   GET https://open-api.ctcfile.com/translations/tgt/{file_lib_id}
+   GET https://api2.ctcfile.com/translations/tgt/{file_lib_id}
 
 **请求参数**
 
@@ -262,7 +262,7 @@ stream 文件流
 
 .. |网页调试工具3| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tgt__file_lib_id_" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tgt__file_lib_id_" target="_blank">网页调试工具</a>
 
 -----------------------------------------------------------
 
@@ -273,7 +273,7 @@ stream 文件流
 
 ::
 
-   PATCH https://open-api.ctcfile.com/translations/tasks/{task_id}/cancel
+   PATCH https://api2.ctcfile.com/translations/tasks/{task_id}/cancel
 
 **请求参数**
 
@@ -295,4 +295,4 @@ task_id string        是   任务ID
 
 .. |网页调试工具5| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/patch_translations_tasks__task_id__cancel" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/patch_translations_tasks__task_id__cancel" target="_blank">网页调试工具</a>

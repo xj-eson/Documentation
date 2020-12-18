@@ -9,7 +9,7 @@ access_token，开发者需要进行妥善保存。
 
 ::
 
-   GET https://open-api.ctcfile.com/oauth/access-token
+   GET https://api2.ctcfile.com/oauth/access-token
 
 **请求参数**
 
@@ -66,4 +66,4 @@ refresh_token string 刷新凭证
 
 .. |网页调试工具| raw:: html
 
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8%E5%87%AD%E8%AF%81/get_oauth_access_token" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8%E5%87%AD%E8%AF%81/get_oauth_access_token" target="_blank">网页调试工具</a>

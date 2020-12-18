@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://open-api.ctcfile.com/files/tgt-downurls
+   GET https://api2.ctcfile.com/files/tgt-downurls
 
 **请求参数**
 
@@ -23,8 +23,8 @@ id        int           是   文件ID
 
 
    {
-      "docx": "https://open-api.ctcfile.com/files/BAgfRvGEHSm3CN0yRcCYj3stair",
-      "pdf": "https://open-api.ctcfile.com/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
+      "docx": "https://api2.ctcfile.com/files/BAgfRvGEHSm3CN0yRcCYj3stair",
+      "pdf": "https://api2.ctcfile.com/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
    }
 
 错误时返回
@@ -37,4 +37,4 @@ id        int           是   文件ID
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_files_tgt_downurls" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_files_tgt_downurls" target="_blank">网页调试工具</a>

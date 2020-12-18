@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://open-api.ctcfile.com/users/domain-types
+   GET https://api2.ctcfile.com/users/domain-types
 
 **返回值**
 
@@ -39,4 +39,4 @@ name                        string 领域名称
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://open-api.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users_domain_types" target="_blank">网页调试工具</a>
+   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users_domain_types" target="_blank">网页调试工具</a>
