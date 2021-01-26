@@ -26,6 +26,7 @@ TranslateDoc
 
    translate/TranslateText
    translate/TranslateFile
+   translate/FileWordsCount
 
 .. toctree::
    :maxdepth: 1
