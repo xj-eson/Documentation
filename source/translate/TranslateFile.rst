@@ -18,7 +18,7 @@
 
 ::
 
-   POST https://api2.ctcfile.com/translationss/file
+   POST https://api2.ctcfile.com/translations/file
 
 **请求参数**
 
