@@ -19,6 +19,7 @@ TranslateDoc
    user/userinfo
    user/domainTypes
    user/languages
+   memorylib/memorylib
 
 .. toctree::
    :maxdepth: 1
