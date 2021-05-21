@@ -29,30 +29,30 @@ TranslateDoc
    translate/TranslateFile
    translate/FileWordsCount
 
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 4.翻译历史
+
+..    file/history
+..    file/tgtDownUrls
+
 .. toctree::
    :maxdepth: 1
-   :caption: 4.翻译历史
-
-   file/history
-   file/tgtDownUrls
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 5.智能校对
+   :caption: 4.智能校对
 
    proofreading/CheckProgress
    proofreading/TranslatedEditUrl
 
 .. toctree::
    :maxdepth: 1
-   :caption: 6.文档转换
+   :caption: 5.文档转换
 
    convert/PdfConvertToType
    convert/ConvertToPdf
 
 .. toctree::
    :maxdepth: 1
-   :caption: 7.统计
+   :caption: 6.统计
 
    statistics/recharges
    statistics/translate_trends
