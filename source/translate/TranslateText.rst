@@ -12,7 +12,7 @@
 ================= ====== ====== ==== ====================================
 属性              类型   默认值 必填 说明
 ================= ====== ====== ==== ====================================
-texts             array         是   翻译的内容
+texts             array         是   翻译的内容(最大字符数为2000)
 src_language_type string        是   原文本语种( :doc:`../overview/LanguageType`)
 tgt_language_type string        是   目标语种( :doc:`../overview/LanguageType`)
 other             string        否   其它信息.传递什么信息,返回同样的信息
