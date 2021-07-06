@@ -49,5 +49,7 @@
 40019   Task not exist.                                          任务不存在或已完成
 40020   Not support OCR.                                         不支持OCR      
 40021   User doesn't exist.                                      用户不存在    
-40022   Specified argument was out of the range of valid values. 指定的参数不在有效值范围内            
+40022   Specified argument was out of the range of valid values. 指定的参数不在有效值范围内     
+40024   File not found.                                          文件不存在
+40025   File convert fail.                                       文件转换失败       
 ======= ======================================================== =======================================
