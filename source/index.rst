@@ -43,12 +43,12 @@ TranslateDoc
 ..    proofreading/CheckProgress
 ..    proofreading/TranslatedEditUrl
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 4.文档转换
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 4.文档转换
 
-   convert/PdfConvertToType
-   convert/ConvertToPdf
+..    convert/PdfConvertToType
+..    convert/ConvertToPdf
 
 .. .. toctree::
 ..    :maxdepth: 1
