@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://api2.ctcfile.com/translations/words-count
+   POST https://transapi.dl.wiki:30120/translations/words-count
 
 **请求参数**
 
@@ -65,4 +65,4 @@ src_language_type string 检测真实语种( :doc:`../overview/LanguageType`)
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translations_words_count" target="_blank">网页调试工具</a>
+   <a href="https://transapi.dl.wiki:30120/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translations_words_count" target="_blank">网页调试工具</a>

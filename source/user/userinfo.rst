@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://api2.ctcfile.com/users
+   GET https://transapi.dl.wiki:30120/users
 
 **返回值**
 
@@ -68,4 +68,4 @@ package_date_due              datetime 套餐到期时间
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users" target="_blank">网页调试工具</a>
+   <a href="https://transapi.dl.wiki:30120/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users" target="_blank">网页调试工具</a>

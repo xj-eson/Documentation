@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://api2.ctcfile.com/statistics/translate-trends
+   GET https://transapi.dl.wiki:30120/statistics/translate-trends
 
 **请求参数**
 
@@ -89,4 +89,4 @@ date_type          start_date                    end_date                       
 
 .. |网页调试工具| raw:: html
  
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BB%9F%E8%AE%A1%E6%8E%A5%E5%8F%A3/get_statistics_translate_trends" target="_blank">网页调试工具</a>
+   <a href="https://transapi.dl.wiki:30120/swagger/index.html#/%E7%BB%9F%E8%AE%A1%E6%8E%A5%E5%8F%A3/get_statistics_translate_trends" target="_blank">网页调试工具</a>
