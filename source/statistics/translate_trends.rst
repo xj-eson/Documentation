@@ -82,11 +82,3 @@ date_type          start_date                    end_date                       
 
 
 -  ``start_date`` 和 ``end_date`` 参数值请根据 ``date_type`` 自行生成
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
- 
-   <a href="https://transapi.dl.wiki:30120/swagger/index.html#/%E7%BB%9F%E8%AE%A1%E6%8E%A5%E5%8F%A3/get_statistics_translate_trends" target="_blank">网页调试工具</a>

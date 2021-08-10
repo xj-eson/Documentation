@@ -72,11 +72,3 @@ date_due                     datetime  剩余时间
 错误时返回
 
    :doc:`../overview/StatusCode`
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
- 
-   <a href="https://transapi.dl.wiki:30120/swagger/index.html#/%E7%BB%9F%E8%AE%A1%E6%8E%A5%E5%8F%A3/get_statistics_recharges" target="_blank">网页调试工具</a>

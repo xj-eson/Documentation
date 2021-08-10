@@ -58,12 +58,3 @@ refresh_token string 刷新凭证
 -  ``access_token`` 的有效期通过返回的 ``expires_in``
    来传达，目前是3600秒之内的值;
 -  ``access_token`` 的有效时间可能会在未来有调整。
-
-**在线调试**
-
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
-
-   <a href="https://transapi.dl.wiki:30120/swagger/index.html#/%E6%8E%A5%E5%8F%A3%E8%B0%83%E7%94%A8%E5%87%AD%E8%AF%81/get_oauth_access_token" target="_blank">网页调试工具</a>
