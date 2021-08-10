@@ -19,7 +19,7 @@ TranslateDoc
    user/userinfo
    user/domainTypes
    user/languages
-   memorylib/memorylib
+..   memorylib/memorylib
 
 .. toctree::
    :maxdepth: 1
@@ -36,26 +36,26 @@ TranslateDoc
 ..    file/history
 ..    file/tgtDownUrls
 
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 4.智能校对
+
+..    proofreading/CheckProgress
+..    proofreading/TranslatedEditUrl
+
 .. toctree::
    :maxdepth: 1
-   :caption: 4.智能校对
-
-   proofreading/CheckProgress
-   proofreading/TranslatedEditUrl
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 5.文档转换
+   :caption: 4.文档转换
 
    convert/PdfConvertToType
    convert/ConvertToPdf
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 6.统计
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 6.统计
 
-   statistics/recharges
-   statistics/translate_trends
+..    statistics/recharges
+..    statistics/translate_trends
 
 .. toctree::
    :maxdepth: 0
