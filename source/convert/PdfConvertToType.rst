@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://transapi.dl.wiki:30120/conversions/pdf-to-file
+   POST https://transapi.dl.wiki/conversions/pdf-to-file
 
 **请求参数**
 

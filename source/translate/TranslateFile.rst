@@ -18,7 +18,7 @@
 
 ::
 
-   POST https://transapi.dl.wiki:30120/translations/file
+   POST https://transapi.dl.wiki/translations/file
 
 **请求参数**
 
@@ -71,7 +71,7 @@ string 任务ID
 
 ::
 
-   GET https://transapi.dl.wiki:30120/translations/tasks/{task_id}
+   GET https://transapi.dl.wiki/translations/tasks/{task_id}
 
 **请求参数**
 
@@ -135,7 +135,7 @@ error_msg        string   错误信息
 
 ::
 
-   GET https://transapi.dl.wiki:30120/translations/tgt/{file_lib_id}
+   GET https://transapi.dl.wiki/translations/tgt/{file_lib_id}
 
 **请求参数**
 
@@ -166,7 +166,7 @@ stream 文件流
 
 ::
 
-   PATCH https://transapi.dl.wiki:30120/translations/tasks/{task_id}/cancel
+   PATCH https://transapi.dl.wiki/translations/tasks/{task_id}/cancel
 
 **请求参数**
 

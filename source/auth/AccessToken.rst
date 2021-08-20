@@ -9,7 +9,7 @@ access_token，开发者需要进行妥善保存。
 
 ::
 
-   GET https://transapi.dl.wiki:30120/oauth/access-token
+   GET https://transapi.dl.wiki/oauth/access-token
 
 **请求参数**
 

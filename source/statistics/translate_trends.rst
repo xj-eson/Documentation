@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/statistics/translate-trends
+   GET https://transapi.dl.wiki/statistics/translate-trends
 
 **请求参数**
 

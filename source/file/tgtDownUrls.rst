@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/files/tgt-downurls
+   GET https://transapi.dl.wiki/files/tgt-downurls
 
 **请求参数**
 
@@ -23,8 +23,8 @@ id        int           是   文件ID
 
 
    {
-      "docx": "https://transapi.dl.wiki:30120/files/BAgfRvGEHSm3CN0yRcCYj3stair",
-      "pdf": "https://transapi.dl.wiki:30120/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
+      "docx": "https://transapi.dl.wiki/files/BAgfRvGEHSm3CN0yRcCYj3stair",
+      "pdf": "https://transapi.dl.wiki/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
    }
 
 错误时返回

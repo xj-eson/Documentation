@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/users
+   GET https://transapi.dl.wiki/users
 
 **返回值**
 
