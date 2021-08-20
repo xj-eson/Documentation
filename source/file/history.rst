@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/files
+   GET https://transapi.dl.wiki/files
 
 **请求参数**
 

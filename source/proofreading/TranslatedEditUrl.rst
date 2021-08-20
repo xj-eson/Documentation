@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/translations/proofread/{file_lib_id}/url
+   GET https://transapi.dl.wiki/translations/proofread/{file_lib_id}/url
 
 **请求参数**
 

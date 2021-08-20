@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/users/domain-types
+   GET https://transapi.dl.wiki/users/domain-types
 
 **返回值**
 

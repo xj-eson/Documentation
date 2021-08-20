@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/users/languages
+   GET https://transapi.dl.wiki/users/languages
 
 **返回值**
 

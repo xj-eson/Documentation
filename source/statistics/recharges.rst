@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://transapi.dl.wiki:30120/statistics/recharges
+   GET https://transapi.dl.wiki/statistics/recharges
 
 **请求参数**
 

@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://transapi.dl.wiki:30120/translations/words-count
+   POST https://transapi.dl.wiki/translations/words-count
 
 **请求参数**
 

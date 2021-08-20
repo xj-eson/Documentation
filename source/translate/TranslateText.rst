@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://transapi.dl.wiki:30120/translations/texts
+   POST https://transapi.dl.wiki/translations/texts
 
 **请求参数**
 
