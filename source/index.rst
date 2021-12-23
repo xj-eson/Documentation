@@ -49,6 +49,7 @@ TranslateDoc
 
    convert/PdfConvertToType
    convert/ConvertToPdf
+   convert/GetFilePage
 
 .. toctree::
    :maxdepth: 1
