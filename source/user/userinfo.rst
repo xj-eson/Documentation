@@ -14,11 +14,9 @@
 ============================= ======== ====================================
 id                            int      用户ID
 username                      string   用户显示名称
-normalized_username           string   登录用户名
-email                         string   用户邮箱
-phone                         string   用户电话
 organization_name             string   组织机构名称
 organization_remain_words     int      组织机构剩余字数
+organization_remain_pages     int      组织机构剩余PDF页数
 organization_date_due         datetime 组织机构到期日期
 package_info                  object   套餐信息
 ============================= ======== ====================================
@@ -30,7 +28,6 @@ package_info                  object   套餐信息
 ============================= ======== ==============================================================================================================
 package_total_words           int      套餐总字数
 package_remain_words          int      套餐剩余字数
-package_pricing               int      套餐支付方式，包括0:通用，10:字数计价，30:时间计价，40:字数月套餐，50:字数年计价，60:字数月套餐，70:字数年计价
 package_date_due              datetime 套餐到期时间
 ============================= ======== ==============================================================================================================
 
@@ -44,17 +41,14 @@ package_date_due              datetime 套餐到期时间
    {
       "id": 1,
       "username": "yx",
-      "normalized_username": "yx",
-      "email": "",
-      "phone": "",
       "organization_name": "yx",
       "organization_remain_words": 4022178,
+      "organization_remain_pages": 5000,
       "organization_date_due": "2021-09-20T15:59:59.999+00:00",
       "package_info": {
          "package_date_due": "2021-09-20T15:59:59.999+00:00",
          "package_total_words": 995821,
-         "package_remain_words": 995640,
-         "package_pricing": 0
+         "package_remain_words": 995640
       }
    }
 
