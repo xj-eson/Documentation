@@ -52,5 +52,6 @@
 40022   Specified argument was out of the range of valid values. 指定的参数不在有效值范围内     
 40024   File not found.                                          文件不存在
 40025   File convert fail.                                       文件转换失败       
-40026   The source language is the same as the target language.  源语言与目标语言相同       
+40026   The source language is the same as the target language.  源语言与目标语言相同      
+40035   User space out of range.                                 私有云空间已不足
 ======= ======================================================== =======================================
