@@ -54,4 +54,5 @@
 40025   File convert fail.                                       文件转换失败       
 40026   The source language is the same as the target language.  源语言与目标语言相同      
 40035   User space out of range.                                 私有云空间已不足
+40043   Assign words expired                                     分配字数已经过期
 ======= ======================================================== =======================================
