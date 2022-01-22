@@ -30,8 +30,8 @@
 0       System error.                                            系统繁忙,此时请开发者稍候再试
 40001   The account has been logged in elsewhere.                账户已在别处登录
 40002   Get access_token error.                                  获取令牌失败
-40003   Not enough words.                                        字数不够
-40004   Number of word has expired.                              字数已经过期
+40003   Not enough words.                                        额度不足
+40004   Number of word has expired.                              额度已过期
 40005   Language selection Error.                                语言选择错误
 40006   File has no words.                                       文件里没有字
 40007   Pdf has Encrypted.                                       pdf文件已加密
@@ -54,5 +54,6 @@
 40025   File convert fail.                                       文件转换失败       
 40026   The source language is the same as the target language.  源语言与目标语言相同      
 40035   User space out of range.                                 私有云空间已不足
-40043   Assign words expired                                     分配字数已经过期
+40043   Assign words expired.                                    分配额度已过期
+40044   Assign words not enough.                                 分配额度不足
 ======= ======================================================== =======================================
