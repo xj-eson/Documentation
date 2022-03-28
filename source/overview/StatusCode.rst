@@ -56,4 +56,6 @@
 40035   User space out of range.                                 私有云空间已不足
 40043   Assign words expired.                                    分配额度已过期
 40044   Assign words not enough.                                 分配额度不足
+40045   User not exist.                                          用户不存在
+40046   User locked.                                             用户被锁定
 ======= ======================================================== =======================================
