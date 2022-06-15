@@ -97,7 +97,7 @@ progress        object   翻译进度信息
 task_id          string   任务ID
 task_status_type int      状态，包括0:进行中，1:完成，2:取消，3:错误
 percent          double   进度值
-file_lib_ids     array    文件id数组，需要根据此id获取翻译后的文件信息
+file_lib_ids     array    文件id数组，可以根据此id获取翻译后的文件信息
 url              array    文件下载地址(需要添加认证信息)
 error_code       string   :doc:`错误码 </../overview/StatusCode>`
 error_msg        string   错误信息
