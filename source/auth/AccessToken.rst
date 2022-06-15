@@ -40,7 +40,7 @@ refresh_token string 刷新凭证
    {
     "token_type": "",
     "access_token": "ACCESS_TOKEN",
-    "expires_in": 3600,
+    "expires_in": 7200,
     "refresh_token": "REFRESH_TOKEN"
    }
 
@@ -56,5 +56,5 @@ refresh_token string 刷新凭证
 -  ``access_token`` 的有效期目前为 **1**
    个小时，需定时刷新，重复获取将导致上次获取的 ``access_token`` 失效；
 -  ``access_token`` 的有效期通过返回的 ``expires_in``
-   来传达，目前是3600秒之内的值;
+   来传达，目前是7200秒之内的值;
 -  ``access_token`` 的有效时间可能会在未来有调整。
