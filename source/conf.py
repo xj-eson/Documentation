@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-# project = '云译通接口文档'
-# copyright = '2020, 译讯科技'
-# author = '译讯科技'
+# project = '接口文档'
+# copyright = '2022, 语服邦'
+# author = '语服邦'
 
 project = 'translatedoc'
 copyright = ''
@@ -81,7 +81,7 @@ html_theme_options = {
     # 'style_external_links': True,
     # 'vcs_pageview_mode': '',
     # 'style_nav_header_background': 'white',
-    ## Toc options
+    # Toc options
     # 'collapse_navigation': True,
     # 'sticky_navigation': True,
     # 'navigation_depth': 4,
