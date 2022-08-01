@@ -27,6 +27,7 @@ TranslateDoc
 
    translate/TranslateText
    translate/TranslateFile
+   translate/LanguageDetect
    translate/FileWordsCount
 
 .. .. toctree::
