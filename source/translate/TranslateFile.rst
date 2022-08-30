@@ -193,7 +193,7 @@ task_id string        是   任务ID
 
 ::
 
-   GET https://api2.ctcfile.com/translations/tgt-view/{file_lib_id}
+   GET https://transapi.dl.wiki/translations/tgt-view/{file_lib_id}
 
 **请求参数**
 
@@ -221,7 +221,7 @@ stream 文件流
 
 .. |网页调试工具3| raw:: html
  
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tgt__file_lib_id_" target="_blank">网页调试工具</a>
+   <a href="https://transapi.dl.wiki/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/get_translations_tgt__file_lib_id_" target="_blank">网页调试工具</a>
 
 -----------------------------------------------------------
 
