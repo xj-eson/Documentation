@@ -53,4 +53,7 @@
 40024   File not found.                                          文件不存在
 40025   File convert fail.                                       文件转换失败       
 40026   The source language is the same as the target language.  源语言与目标语言相同   
+40042   Convert error                                            转换预览文件失败
+40051   Translate file is converting                             预览文件正在转换中
+
 ======= ======================================================== =======================================
