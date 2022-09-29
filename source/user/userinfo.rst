@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://api2.ctcfile.com/users
+   GET https://openapi.ctcfile.com/v1/users
 
 **返回值**
 
@@ -55,11 +55,3 @@ package_date_due              datetime 套餐到期时间
 错误时返回
 
    :doc:`../overview/StatusCode`
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
- 
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1/get_users" target="_blank">网页调试工具</a>

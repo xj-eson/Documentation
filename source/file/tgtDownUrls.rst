@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://api2.ctcfile.com/files/tgt-downurls
+   GET https://openapi.ctcfile.com/v1/files/tgt-downurls
 
 **请求参数**
 
@@ -23,18 +23,10 @@ id        int           是   文件ID
 
 
    {
-      "docx": "https://api2.ctcfile.com/files/BAgfRvGEHSm3CN0yRcCYj3stair",
-      "pdf": "https://api2.ctcfile.com/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
+      "docx": "https://openapi.ctcfile.com/v1/files/BAgfRvGEHSm3CN0yRcCYj3stair",
+      "pdf": "https://openapi.ctcfile.com/v1/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
    }
 
 错误时返回
 
    :doc:`../overview/StatusCode`
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
- 
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/get_files_tgt_downurls" target="_blank">网页调试工具</a>

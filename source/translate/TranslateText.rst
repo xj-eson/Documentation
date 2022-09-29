@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://api2.ctcfile.com/translations/texts
+   POST https://openapi.ctcfile.com/v1/translations/texts
 
 **请求参数**
 
@@ -48,11 +48,3 @@ other             string 其它信息.传递什么信息,返回同样的信息
 错误时返回
 
    :doc:`../overview/StatusCode`
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
- 
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E7%BF%BB%E8%AF%91%E6%8E%A5%E5%8F%A3/post_translations_texts" target="_blank">网页调试工具</a>

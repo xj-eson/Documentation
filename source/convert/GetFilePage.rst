@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://api2.ctcfile.com/files/pages
+   POST https://openapi.ctcfile.com/v1/files/pages
 
 **请求参数**
 
@@ -28,11 +28,3 @@ int    文件页数
 错误时返回
 
    :doc:`../overview/StatusCode`
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
-
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E6%96%87%E4%BB%B6%E6%8E%A5%E5%8F%A3/post_files_pages" target="_blank">网页调试工具</a>

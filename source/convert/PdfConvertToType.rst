@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://api2.ctcfile.com/conversions/pdf-to-file
+   POST https://openapi.ctcfile.com/v1/conversions/pdf-to-file
 
 **请求参数**
 
@@ -47,11 +47,3 @@ x-user-pages      int    当前使用的页数
 错误时返回
 
    :doc:`../overview/StatusCode`
-
-**在线调试**
-
-开发者可以使用 |网页调试工具| 调试该接口
-
-.. |网页调试工具| raw:: html
- 
-   <a href="https://api2.ctcfile.com/swagger/index.html#/%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E6%8E%A5%E5%8F%A3/post_conversions_pdf_to_file" target="_blank">网页调试工具</a>
