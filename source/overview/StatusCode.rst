@@ -54,10 +54,12 @@
 40025   File convert fail.                                       文件转换失败       
 40026   The source language is the same as the target language.  源语言与目标语言相同      
 40035   User space out of range.                                 私有云空间已不足
+40042   convert error.                                           预览文件生成失败
 40043   Assign words expired.                                    分配额度已过期
 40044   Assign words not enough.                                 分配额度不足
 40045   User not exist.                                          用户不存在
 40046   User locked.                                             用户被锁定
 40047   User channel error                                       用户平台错误
 40050   no language translate right                              用户没有该语种翻译权限
+40051   translate file is converting                             预览文件生成中
 ======= ======================================================== =======================================
