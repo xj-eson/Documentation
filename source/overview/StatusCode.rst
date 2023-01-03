@@ -62,4 +62,5 @@
 40047   User channel error                                       用户平台错误
 40050   no language translate right                              用户没有该语种翻译权限
 40051   translate file is converting                             预览文件生成中
+40085   user not enough translate pages                          翻译页数不够
 ======= ======================================================== =======================================
