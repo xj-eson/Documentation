@@ -9,17 +9,17 @@
 
 **返回值**
 
-============================= ======== ====================================
-属性                          类型     说明
-============================= ======== ====================================
-id                            int      用户ID
-username                      string   用户显示名称
-organization_name             string   组织机构名称
-organization_remain_words     int      组织机构剩余字数
-organization_remain_pages     int      组织机构剩余PDF页数
-organization_remain_image_pages int    组织机构剩余剩余图片页数
-organization_date_due         datetime 组织机构到期日期
-package_info                  object   套餐信息
+=============================== ======== ====================================
+属性                            类型      说明
+=============================== ======== ====================================
+id                              int      用户ID
+username                        string   用户显示名称
+organization_name               string   组织机构名称
+organization_remain_words       int      组织机构剩余字数
+organization_remain_pages       int      组织机构剩余PDF页数
+organization_remain_image_pages int      组织机构剩余剩余图片页数
+organization_date_due           datetime 组织机构到期日期
+package_info                    object   套餐信息
 ============================= ======== ====================================
 
 *package_info的结构*
