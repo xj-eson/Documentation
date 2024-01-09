@@ -52,12 +52,12 @@ TranslateDoc
    convert/ConvertToPdf
    convert/GetFilePage
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 6.统计
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 6.统计
 
-   statistics/recharges
-   statistics/translate_trends
+..    statistics/recharges
+..    statistics/translate_trends
 
 .. toctree::
    :maxdepth: 0
