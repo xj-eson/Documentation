@@ -1,1 +1,5 @@
 six
+sphinx
+sphinx_intl
+sphinx_rtd_theme
+recommonmark
