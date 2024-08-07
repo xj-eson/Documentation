@@ -12,21 +12,31 @@
 ================= ====== ====== ==== ====================================
 属性              类型   默认值 必填 说明
 ================= ====== ====== ==== ====================================
-texts             array         是   翻译的内容(最大字符数为2000)
-src_language_type string        是   原文本语种( :doc:`../overview/LanguageType`)
-tgt_language_type string        是   目标语种( :doc:`../overview/LanguageType`)
-other             string        否   其它信息.传递什么信息,返回同样的信息
+texts             array         是   需要翻译的内容
+src_language_type string        否   源语种类型。如未指定，将自动检测( :doc:`../overview/LanguageType`)
+tgt_language_type string        是   目标语种类型( :doc:`../overview/LanguageType`)
+other             string        否   其它信息，传递的内容将原样返回
+properties        dict          否   属性(详见下方示例)
 ================= ====== ====== ==== ====================================
+
+*properties参数示例*
+
+=================================== ============
+属性名                               属性值
+=================================== ============
+options:text_translate_retain_emoji 1:保留Emoji
+options:text_translate_retain_url   1:保留URL
+=================================== ============
 
 **返回值**
 
 ================= ====== ====================================
 属性              类型   说明
 ================= ====== ====================================
-texts             array  翻译的内容
-src_language_type string 原文本语种( :doc:`../overview/LanguageType`)
-tgt_language_type string 目标语种( :doc:`../overview/LanguageType`)
-other             string 其它信息.传递什么信息,返回同样的信息
+texts             array  翻译后的内容
+src_language_type string 源语种类型( :doc:`../overview/LanguageType`)
+tgt_language_type string 目标语种类型( :doc:`../overview/LanguageType`)
+other             string 其它信息，传递的内容将原样返回
 ================= ====== ====================================
 
 **返回数据示例**
@@ -42,7 +52,11 @@ other             string 其它信息.传递什么信息,返回同样的信息
      "texts": [
        "hello"
      ],
-     "other": ""
+     "other": "",
+     "properties": {
+       "options:text_translate_retain_emoji": "1",
+       "options:text_translate_retain_url": "1"
+     }
    }
 
 错误时返回
