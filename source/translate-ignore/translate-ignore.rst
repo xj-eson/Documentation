@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/api/user-text-translate-ignore-items/items
+   GET https://openapi.ctcfile.com/v1/user-text-translate-ignore-items/items
 
 
 **返回值**
@@ -38,7 +38,7 @@
 
 ::    
 
-   POST https://openapi.ctcfile.com/api/user-text-translate-ignore-items/set
+   POST https://openapi.ctcfile.com/v1/user-text-translate-ignore-items/set
 
 **请求参数**
 
