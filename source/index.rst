@@ -52,6 +52,12 @@ TranslateDoc
    convert/ConvertToPdf
    convert/GetFilePage
 
+.. toctree::
+   :maxdepth: 0
+   :caption: 6.过滤列表
+
+   translate-ignore/translate-ignore
+
 .. .. toctree::
 ..    :maxdepth: 1
 ..    :caption: 6.统计

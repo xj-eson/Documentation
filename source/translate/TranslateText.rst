@@ -28,6 +28,26 @@ options:text_translate_retain_emoji 1:保留Emoji
 options:text_translate_retain_url   1:保留URL
 =================================== ============
 
+
+**参数示例**
+
+.. code:: json
+
+
+   {
+     "src_language_type": "en",
+     "tgt_language_type": "zs",
+     "texts": [
+       "hello"
+     ],
+     "other": "",
+     "properties": {
+       "options:text_translate_retain_emoji": "1",
+       "options:text_translate_retain_url": "1"
+     }
+   }
+
+
 **返回值**
 
 ================= ====== ====================================
@@ -50,13 +70,9 @@ other             string 其它信息，传递的内容将原样返回
      "src_language_type": "zs",
      "tgt_language_type": "en",
      "texts": [
-       "hello"
+       "你好"
      ],
-     "other": "",
-     "properties": {
-       "options:text_translate_retain_emoji": "1",
-       "options:text_translate_retain_url": "1"
-     }
+     "other": ""
    }
 
 错误时返回
