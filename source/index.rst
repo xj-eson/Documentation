@@ -28,7 +28,7 @@ TranslateDoc
    translate/TranslateText
    translate/TranslateFile
    translate/LanguageDetect
-   translate/FileWordsCount
+   .. translate/FileWordsCount
 
 .. .. toctree::
 ..    :maxdepth: 1
@@ -37,24 +37,24 @@ TranslateDoc
 ..    file/history
 ..    file/tgtDownUrls
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 4.智能校对
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 4.智能校对
 
-   proofreading/CheckProgress
-   proofreading/TranslatedEditUrl
+..    proofreading/CheckProgress
+..    proofreading/TranslatedEditUrl
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 5.文档转换
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 5.文档转换
 
-   convert/PdfConvertToType
-   convert/ConvertToPdf
-   convert/GetFilePage
+..    convert/PdfConvertToType
+..    convert/ConvertToPdf
+..    convert/GetFilePage
 
 .. toctree::
    :maxdepth: 0
-   :caption: 6.过滤列表
+   :caption: 4.过滤列表
 
    translate-ignore/translate-ignore
 
