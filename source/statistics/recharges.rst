@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/statistics/recharges
+   GET /statistics/recharges
 
 **请求参数**
 

@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/translations/language-detect
+   POST /translations/language-detect
 
 **请求参数**
 

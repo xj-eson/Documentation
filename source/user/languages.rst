@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/users/languages
+   GET /users/languages
 
 **返回值**
 

@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/translations/proofread/{file_lib_id}/url
+   GET /translations/proofread/{file_lib_id}/url
 
 **请求参数**
 

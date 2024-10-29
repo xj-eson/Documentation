@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/files/tgt-downurls
+   GET /files/tgt-downurls
 
 **请求参数**
 
@@ -23,8 +23,8 @@ id        int           是   文件ID
 
 
    {
-      "docx": "https://openapi.ctcfile.com/v1/files/BAgfRvGEHSm3CN0yRcCYj3stair",
-      "pdf": "https://openapi.ctcfile.com/v1/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
+      "docx": "/files/BAgfRvGEHSm3CN0yRcCYj3stair",
+      "pdf": "/files/BAgfRvGEHSm3CN0yRcCYj7MnrYFs"
    }
 
 错误时返回

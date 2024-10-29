@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/files/pages
+   POST /files/pages
 
 **请求参数**
 

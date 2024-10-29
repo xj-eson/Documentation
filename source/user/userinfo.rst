@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/users
+   GET /users
 
 **返回值**
 

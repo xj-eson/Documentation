@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/statistics/translate-trends
+   GET /statistics/translate-trends
 
 **请求参数**
 
@@ -33,36 +33,36 @@ date             string 时间
 
 .. code:: json
 
-   [
-       {
-            consumeWordCount:100,
-            date:"01"
-       },
-       {
-            consumeWordCount:110,
-            date:"02"
-       },
-       {
-            consumeWordCount:150,
-            date:"03"
-       },
-       {
-            consumeWordCount:200,
-            date:"04"
-       },
-       {
-            consumeWordCount:500,
-            date:"05"
-       },
-       {
-            consumeWordCount:800,
-            date:"06"
-       },
-       {
-            consumeWordCount:1000,
-            date:"00"
-       }
-   ]
+     [
+          {
+               consumeWordCount:100,
+               date:"01"
+          },
+          {
+               consumeWordCount:110,
+               date:"02"
+          },
+          {
+               consumeWordCount:150,
+               date:"03"
+          },
+          {
+               consumeWordCount:200,
+               date:"04"
+          },
+          {
+               consumeWordCount:500,
+               date:"05"
+          },
+          {
+               consumeWordCount:800,
+               date:"06"
+          },
+          {
+               consumeWordCount:1000,
+               date:"00"
+          }
+     ]
 
 
 错误时返回

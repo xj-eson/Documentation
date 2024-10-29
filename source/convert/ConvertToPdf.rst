@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/conversions/file-to-pdf
+   POST /conversions/file-to-pdf
 
 **请求参数**
 

@@ -37,20 +37,26 @@ TranslateDoc
 ..    file/history
 ..    file/tgtDownUrls
 
+.. .. toctree::
+..    :maxdepth: 1
+..    :caption: 4.智能校对
+
+..    proofreading/CheckProgress
+..    proofreading/TranslatedEditUrl
+
 .. toctree::
    :maxdepth: 1
-   :caption: 4.智能校对
-
-   proofreading/CheckProgress
-   proofreading/TranslatedEditUrl
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 5.文档转换
+   :caption: 4.文档转换
 
    convert/PdfConvertToType
    convert/ConvertToPdf
    convert/GetFilePage
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: 5.术语库
+
+   term/term
 
 .. .. toctree::
 ..    :maxdepth: 1
