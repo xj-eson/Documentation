@@ -42,7 +42,7 @@
 40012   Document handling error.                                 文档处理出错
 40013   The task has been canceled.                              任务已经取消
 40014   The operation has been canceled.                         操作已经取消
-40015   Some arguments is empty.                                 部分参数为空
+40015   Some arguments is exception.                             部分参数异常
 40016   Invalid args.                                            参数错误
 40017   File data does not exist.                                文件数据不存在
 40018   File item does not exist.                                文件项不存在
