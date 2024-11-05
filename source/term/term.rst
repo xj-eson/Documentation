@@ -204,7 +204,6 @@ src_language_type   string        是   原文本语种( :doc:`../overview/Langu
 tgt_language_type   string        是   目标语种( :doc:`../overview/LanguageType`)
 src_content         string        是   原文
 tgt_content         string        是   译文
-is_reverse          bool          是   是否双向添加
 =================== ====== ====== ==== =============================================
 
 7. 修改术语
@@ -226,7 +225,6 @@ src_language_type   string        是   原文本语种( :doc:`../overview/Langu
 tgt_language_type   string        是   目标语种( :doc:`../overview/LanguageType`)
 src_content         string        是   原文
 tgt_content         string        是   译文
-is_reverse          bool          是   是否双向修改
 =================== ====== ====== ==== =============================================
 
 8. 删除术语

@@ -69,6 +69,6 @@
 40054   has item data can not delete                             领域中存在数据不能删除
 40055   memory item has the same data                            存在相同数据
 40056   item data not exist                                      数据不存在
-40057   parent node not exist                                    父节点不存在
+40057   parent node not exist or node-level error                父节点不存在或节点层级错误
 40085   user not enough translate pages                          翻译页数不够
 ======= ======================================================== =======================================
