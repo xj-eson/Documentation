@@ -30,15 +30,11 @@
 0       System error.                                            系统繁忙,此时请开发者稍候再试
 40001   The account has been logged in elsewhere.                账户已在别处登录
 40002   Get access_token error.                                  获取令牌失败
-40003   Not enough words.                                        额度不足
-40004   Number of word has expired.                              额度已过期
 40005   Language selection Error.                                语言选择错误
 40006   File has no words.                                       文件里没有字
 40007   Pdf has Encrypted.                                       pdf文件已加密
 40008   File too large.                                          文件太大
-40009   Do not have this translation permissions.                没有该类型文档翻译权限
 40010   Translation timeout.                                     翻译超时
-40011   Not enaugh pages.                                        页数不够
 40012   Document handling error.                                 文档处理出错
 40013   The task has been canceled.                              任务已经取消
 40014   The operation has been canceled.                         操作已经取消
@@ -55,13 +51,9 @@
 40026   The source language is the same as the target language.  源语言与目标语言相同      
 40030   lib already exist.                                       领域库已存在
 40031   lib not exist.                                           领域库不存在
-40035   User space out of range.                                 私有云空间已不足
 40042   convert error.                                           预览文件生成失败
-40043   Assign words expired.                                    分配额度已过期
-40044   Assign words not enough.                                 分配额度不足
 40045   User not exist.                                          用户不存在
 40046   User locked.                                             用户被锁定
-40047   User channel error                                       用户平台错误
 40050   no language translate right                              用户没有该语种翻译权限
 40051   translate file is converting                             预览文件生成中
 40052   can not add item for none-leaf node                      不能为父节点添加项
@@ -70,5 +62,4 @@
 40055   memory item has the same data                            存在相同数据
 40056   item data not exist                                      数据不存在
 40057   parent node not exist or node-level error                父节点不存在或节点层级错误
-40085   user not enough translate pages                          翻译页数不够
 ======= ======================================================== =======================================
