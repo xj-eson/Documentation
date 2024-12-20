@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/files
+   GET /files
 
 **请求参数**
 

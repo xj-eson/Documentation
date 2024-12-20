@@ -9,7 +9,7 @@ access_token，开发者需要进行妥善保存。
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/oauth/access-token
+   GET /oauth/access-token
 
 **请求参数**
 

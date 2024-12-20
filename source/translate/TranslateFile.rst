@@ -18,7 +18,7 @@
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/translations/file
+   POST /translations/file
 
 **请求参数**
 
@@ -70,7 +70,7 @@ string 任务ID
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/translations/image
+   POST /translations/image
 
 **请求参数**
 
@@ -125,7 +125,7 @@ string 任务ID
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/translations/tasks/{task_id}
+   GET /translations/tasks/{task_id}
 
 **请求参数**
 
@@ -171,7 +171,7 @@ error_msg        string   错误信息
          "file_lib_ids": [
             1
          ],
-         "url": "https://openapi.ctcfile.com/v1/files/NsSgHjhWHXf4JDq",
+         "url": "/files/NsSgHjhWHXf4JDq",
          "error_code": -1,
          "error_msg": null
       }
@@ -190,7 +190,7 @@ error_msg        string   错误信息
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/translations/tgt/{file_lib_id}
+   GET /translations/tgt/{file_lib_id}
 
 **请求参数**
 
@@ -221,7 +221,7 @@ stream 文件流
 
 ::
 
-   PATCH https://openapi.ctcfile.com/v1/translations/tasks/{task_id}/cancel
+   PATCH /translations/tasks/{task_id}/cancel
 
 **请求参数**
 
@@ -246,7 +246,7 @@ task_id string        是   任务ID
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/translations/tgt-view/{file_lib_id}
+   GET /translations/tgt-view/{file_lib_id}
 
 **请求参数**
 

@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/users/domain-types
+   GET /users/domain-types
 
 **返回值**
 

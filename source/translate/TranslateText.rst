@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/translations/texts
+   POST /translations/texts
 
 **请求参数**
 

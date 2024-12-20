@@ -5,7 +5,7 @@
 
 ::
 
-   POST https://openapi.ctcfile.com/v1/translations/words-count
+   POST /translations/words-count
 
 **请求参数**
 

@@ -5,7 +5,7 @@
 
 ::
 
-   GET https://openapi.ctcfile.com/v1/statistics/translate-trends
+   GET /statistics/translate-trends
 
 **请求参数**
 
